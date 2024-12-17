@@ -1,6 +1,8 @@
 function Experience() {
     return(
-        <div>Experience</div>
+        <div className='page experience'>
+            Experience
+        </div>
     )
 }
 

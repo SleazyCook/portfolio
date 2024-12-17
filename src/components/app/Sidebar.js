@@ -39,7 +39,7 @@ function Sidebar() {
         <div className='sidebar'>
 
             {/* Avatar */}
-            <img className='avatar' src='https://i.imgur.com/3QFCSt3.png' />
+            <img className='avatar' src='https://i.imgur.com/T09m2sD.png' />
             <br />
 
             {/* Name */}

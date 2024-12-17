@@ -29,8 +29,8 @@ function Navigation() {
 
         {navArray.map((navObj) => {
             return(
-                <Link key={navObj.id} to={navObj.link}>
-                    {navObj.name}
+                <Link className='navigation__link' key={navObj.id} to={navObj.link}>
+                    <span>{navObj.name}</span>
                 </Link>
             )
         })}

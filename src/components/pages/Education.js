@@ -1,6 +1,8 @@
 function Education() {
     return(
-        <div>Education</div>
+        <div className='page education'>
+            Education
+        </div>
     )
 }
 

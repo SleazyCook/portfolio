@@ -1,6 +1,8 @@
 function Interests() {
     return(
-        <div>Interests</div>
+        <div className='page interests'>
+            Interests
+        </div>
     )
 }
 

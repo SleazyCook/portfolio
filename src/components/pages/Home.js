@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <div>
+        <div className='page home'>
             Homepage
             
             {/* indludes skills */}
