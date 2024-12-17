@@ -6,7 +6,7 @@ import ErrorPage from './components/app/ErrorPage.js'
 
 import Home from './components/pages/Home.js'
 import Experience from './components/pages/Experience.js'
-import Education from './components/pages/Education.js'
+import Projects from './components/pages/Projects.js'
 import Interests from './components/pages/Interests.js'
 
 const appElement = document.getElementById('app')
@@ -27,8 +27,8 @@ export const router = createBrowserRouter([
                 element: <Experience />
             },
             {
-                path: "education",
-                element: <Education />
+                path: "projects",
+                element: <Projects />
             },
             {
                 path: "interests",

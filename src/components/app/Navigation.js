@@ -13,8 +13,8 @@ const navArray = [
     },
     {
         id: 3,
-        name: "education",
-        link: "education"
+        name: "projects",
+        link: "projects"
     },
     {
         id: 4,

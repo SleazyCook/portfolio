@@ -40,24 +40,41 @@ body {
 .social-icons {
   display: flex;
   justify-content: space-around;
-  width: 200px;
-  border: 1px solid yellow;
-  margin: 0 auto;
-}
-
-.social-icons__link {
-
+  width: 240px;
+  margin: 1rem auto;
 }
 
 .social-icons__icon {
-  max-height: 30px;
+  max-height: 35px;
   cursor: pointer;
+}
+
+.social-icons__link:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+  /* filter: drop-shadow(0 1mm 1mm white); */
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
-  border: 2px solid white;
 }
 
 .navigation__link,
@@ -75,6 +92,7 @@ body {
   -webkit-appearance: button;
   background-color: #000;
   background-image: none;
+  background-color: red;
   color: #fff;
   cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -117,7 +135,11 @@ body {
 }
 
 .navigation__link span {
-  background: #fff;
+
+  /* Navigation Link Background Image */
+  /* background-image: url('https://thumbs.dreamstime.com/b/yellow-linen-fabric-cloth-texture-background-detail-textile-material-close-up-133612741.jpg'); */
+  background-color: white;
+
   color: #000;
   display: grid;
   inset: 0;
