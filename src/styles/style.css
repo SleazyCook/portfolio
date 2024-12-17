@@ -10,3 +10,53 @@
     background-color: black;
     color: white;
 }
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app__content {
+  border: 2px solid red;
+  max-width: 2000px;
+
+  display: flex;
+}
+
+/* Sidebar */
+
+.sidebar {
+  text-align: center;
+}
+
+.avatar {
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.social-icons__link {
+
+}
+
+.social-icons__icon {
+  max-height: 30px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+}
+
+/* pages */
+
+.page {
+  min-width: 700px;
+}

@@ -1,16 +1,20 @@
 import { Outlet } from 'react-router-dom'
 
-import Navigation from './Navigation'
+import Sidebar from './Sidebar.js'
 
 import '../../styles/style.css'
 
 function App() {
     return (
-        <div>
+        <div className='app'>
 
-            <Navigation />
+            <div className='app__content'>
 
-            <Outlet context />
+                <Sidebar />
+
+                <Outlet context />
+
+            </div>
 
         </div>
     )
