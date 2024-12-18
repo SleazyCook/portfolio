@@ -71,7 +71,7 @@ const searchspringArray = [
 
 function Searchspring() {
     return(
-        <div className='searchspring'>
+        <div className='searchspring experience__section'>
 
                 <div className='searchspring__header'>
                     <img src='https://i.imgur.com/jGcPONP.png' alt='Searchspring logo' />
