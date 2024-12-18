@@ -8,13 +8,13 @@ import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
 import '../../styles/pages/experience.css'
 
-const URL = 'https://zenquotes.io/api/quotes/[random]'
+const URL = 'https://zenquotes.io/api/quotes/'
 
 function App() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await fetch(URL, {mode: 'no-cors'})
+            const result = await fetch(URL)
             console.log(result)
         }
         fetchData()
