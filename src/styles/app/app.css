@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+
+.app__content {
+  border: 2px solid red;
+  max-width: 2000px;
+
+  display: flex;
+}
+
+.page {
+    min-width: 700px;
+  }
+  

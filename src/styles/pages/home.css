@@ -1,0 +1,41 @@
+.name {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.name__main {
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+#author {
+    font-family: "Berkshire Swash", serif;
+    font-style: normal;
+}
+
+.name__sub {
+    text-decoration: overline;
+    font-size: 18px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skill-icon__container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.skill-icon img {
+    height: 36px;
+    width: 36px;
+}
+
+.quote {
+    text-align: center;
+    margin: 1rem 0;
+}

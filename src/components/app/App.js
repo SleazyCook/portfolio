@@ -2,7 +2,9 @@ import { Outlet } from 'react-router-dom'
 
 import Sidebar from './Sidebar.js'
 
-import '../../styles/style.css'
+import '../../styles/app/app.css'
+import '../../styles/app/sidebar.css'
+import '../../styles/pages/home.css'
 
 function App() {
     return (
