@@ -86,7 +86,7 @@ function Searchspring() {
                     </div>
                 </div>
 
-                <ul className='searchspring__details'>
+                <ul className='experience__details'>
                     <li>Respond to customer inquiries and assist in troubleshooting and resolving challenges</li>
                     <li>Research, diagnose, troubleshoot and identify solutions to resolve customer issues</li>
                     <li>Provide prompt and accurate feedback to customers</li>

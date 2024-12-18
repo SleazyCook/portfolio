@@ -10,6 +10,10 @@
   border-radius: 1rem;
 }
 
+.fullstack {
+  background-color: grey;
+}
+
 /* see styles for resume button at bottom of stylesheet */
 .searchspring {
   background-color: darkgray;
@@ -19,47 +23,15 @@
   text-align: center;
 }
 
+.fullstack__header {
+  text-align: center;
+}
+
+/* Header Images */
+
 .searchspring__header img {
   max-height: 10rem;
   margin: 0 auto;
-}
-
-.searchspring__header--sub {
-  margin-right: 5rem;
-  margin-top: -2rem;
-  margin-bottom: 1rem;
-}
-
-.searchspring__header--sub,
-.guildgaming__header--sub {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 6rem;
-}
-
-.job-title {
-  vertical-align: middle;
-  font-size: 1.5rem;
-}
-
-.searchspring__header--sub span,
-.guildgaming__header--sub span {
-  display: block;
-  text-align: right;
-}
-
-.searchspring, .guildgaming {
-  margin-left: 2rem;
-}
-
-.guildgaming {
-  background-color: grey;
-  padding-top: 2.5rem;
-}
-
-.guildgaming__header--main {
-  display: flex;
-  justify-content: center;
 }
 
 .guildgaming__header img {
@@ -76,19 +48,75 @@
   text-transform: uppercase;
 }
 
+.fullstack__header img {
+  max-height: 5rem;  
+}
+
+.searchspring__header--sub {
+  margin-right: 5rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+
+.searchspring__header--sub,
+.guildgaming__header--sub {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+
+.fullstack__header--sub {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+
+.fullstack__header--sub span {
+  display: block;
+  margin-right: 6rem;
+  text-align: right;
+}
+
+.job-title {
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+.searchspring__header--sub span,
+.guildgaming__header--sub span {
+  display: block;
+  text-align: right;
+}
+
+.searchspring, .guildgaming, .fullstack {
+  margin-left: 2rem;
+}
+
+.guildgaming {
+  background-color: grey;
+  padding-top: 2.5rem;
+}
+
+.guildgaming__header--main {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .guildgaming__header--sub {
   margin-right: 6rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.searchspring__details {
+.experience__details {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
 }
 
-.searchspring__details li {
+.experience__details li {
   list-style: none;
   margin-left: 4rem;
 }
