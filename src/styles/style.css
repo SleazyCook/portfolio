@@ -135,12 +135,8 @@ body {
 }
 
 .navigation__link span {
-
-  /* Navigation Link Background Image */
-  /* background-image: url('https://thumbs.dreamstime.com/b/yellow-linen-fabric-cloth-texture-background-detail-textile-material-close-up-133612741.jpg'); */
-  background-color: white;
-
-  color: #000;
+  color: white;
+  font-size: 2rem;
   display: grid;
   inset: 0;
   place-items: center;
@@ -150,6 +146,39 @@ body {
   transition: 0.2s;
 }
 
+/* Home */
+.navigation__link:nth-child(1) span {
+  background-image: linear-gradient(rgba(70, 97, 215, 0.5), rgba(70, 97, 215, 0.5)),
+    url('https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-4.1.0&rect=0%2C292%2C3008%2C1504&q=45&auto=format&w=1356&h=668&fit=crop');
+  background-size: cover;
+  background-position-y: 50%;
+}
+
+/* Experience */
+.navigation__link:nth-child(2) span {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 0.1)),
+    url('https://i.imgur.com/a7iI8HM.png');
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+/* Projects */
+.navigation__link:nth-child(3) span {
+  background-image: linear-gradient(rgba(40, 42, 52, 0.8), rgba(40, 42, 52, 0.9)),
+    url('https://www.in2code.de/fileadmin/_processed_/0/b/csm_code_javascript_deb0c3970a.jpg');
+  background-size: 150%;
+  background-position-y: 50%;
+  background-position-x: 50%;
+}
+
+/* Interests */
+.navigation__link:nth-child(4) span {
+  background-image: linear-gradient(rgba(40, 42, 52, 0.7), rgba(40, 42, 52, 0.7)),
+    url('https://i.imgur.com/5GaLHsF.png');
+  background-size: cover;
+  background-position-y: 50%;
+}
+
 .navigation__link:hover span {
   transform: rotateX(35deg);
 }
@@ -157,6 +186,7 @@ body {
 .navigation__link:after,
 .navigation__link:before {
   background: #ddd;
+  background: black;
   content: "";
   height: 100%;
   left: 0;
@@ -172,10 +202,10 @@ body {
   width: 0;
 }
 
-.navigation__link:hover:after {
+/* .navigation__link:hover:after {
   -webkit-animation: progress-bar 1.2s;
   animation: progress-bar 1.2s;
-}
+} */
 
 @-webkit-keyframes progress-bar {
   0% {
