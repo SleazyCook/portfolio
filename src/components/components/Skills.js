@@ -1,3 +1,5 @@
+
+
 function Skills() {
 
     const codeArray = [
@@ -184,3 +186,5 @@ function Skills() {
 }
 
 export default Skills
+
+ 
