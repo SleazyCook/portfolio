@@ -12,6 +12,15 @@ body {
   background-color: black;
 }
 
+body::_wekbit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .app {
   display: flex;
   justify-content: center;
@@ -22,7 +31,6 @@ body {
 .app__content {
   border: 2px solid red;
   max-width: 2000px;
-
   display: flex;
 }
 

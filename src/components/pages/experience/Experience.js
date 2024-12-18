@@ -14,7 +14,7 @@ function Experience() {
 
             <Searchspring />
 
-            <GuildGaming />
+            {/* <GuildGaming /> */}
 
             <Fullstack />
 

@@ -5,9 +5,10 @@
 }
 
 .experience__section {
-  margin: 1rem 2rem; 
-  padding: 1rem;
+  margin: 1rem auto;
+  padding: 1rem .5rem;
   border-radius: 1rem;
+  max-width: 600px;
 }
 
 .fullstack {
@@ -32,6 +33,7 @@
 .searchspring__header img {
   max-height: 10rem;
   margin: 0 auto;
+  margin-top: -1rem;
 }
 
 .guildgaming__header img {
