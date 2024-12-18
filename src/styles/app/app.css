@@ -6,19 +6,16 @@
   margin: 0px;
   padding: 0px;
   box-sizing: inherit;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-body {
-  background-color: black;
-}
-
-body::_wekbit-scrollbar {
+*::_wekbit-scrollbar {
   display: none;
 }
 
 body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  background-color: black;
 }
 
 .app {
