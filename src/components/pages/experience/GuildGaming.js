@@ -1,55 +1,13 @@
-const guildArray = [
-    {
-        id: 1,
-        name: 'React',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg',
-        link: 'https://reactjs.org/'
-    },
-    {
-        id: 2,
-        name: 'Typescript',
-        img: 'https://github.com/user-attachments/assets/0f66057f-e906-4c07-b2b9-dcdd8034c947',
-        link: 'https://www.typescriptlang.org/'
-    },
-    {
-        id: 3,
-        name: 'HTML',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg',
-        link: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-    },
-    {
-        id: 4,
-        name: 'Tailwind CSS',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg',
-        link: 'https://tailwindcss.com'
-    },
-    {
-        id: 5,
-        name: 'PostgreSQL',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg',
-        link: 'https://www.postgresql.org/'
-    },
-    {
-        id: 6,
-        name: 'Node',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg',
-        link: 'https://nodejs.org/en/'
-    },
-    {
-        id: 7,
-        name: 'Git',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg',
-        link: 'https://git-scm.com'
-    },
-    {
-        id: 1,
-        name: 'Figma',
-        img: 'https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png',
-        link: 'https://www.figma.com/'
-    }
-]
+import skills from '../../data/techSkills'
 
 function GuildGaming() {
+
+    const guild = ['React.js', 'Typescript', 'HTML 5', 'Tailwind CSS', 'PostgreSQL', 'Node.js', 'Git', 'Figma']
+
+    const guildArray = skills.filter(skill => 
+        guild.includes(skill.name)
+    )
+
     return(
         <div className='guildgaming experience__section'>
 
@@ -64,8 +22,8 @@ function GuildGaming() {
                         Jr Software Engineer
                     </div>
                     <div>
-                        <span>May 2023 - March 2024</span>
-                        <span>San Marcos, Texas - Remote</span>
+                        <span>May 2023 - Mar 2024</span>
+                        <span>San Marcos, TX - Remote</span>
                     </div>
                 </div>
             </div>

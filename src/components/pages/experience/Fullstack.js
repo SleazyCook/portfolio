@@ -1,55 +1,13 @@
-const fullstackArray = [
-    {
-        id: 1,
-        name: 'React',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg',
-        link: 'https://reactjs.org/'
-    },
-    {
-        id: 1,
-        name: 'Javescript',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
-    },
-    {
-        id: 1,
-        name: 'HTML 5',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg',
-        link: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-    },
-    {
-        id: 1,
-        name: 'CSS 3',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg',
-        link: 'https://www.w3.org/TR/CSS/#css'
-    },
-    {
-        id: 1,
-        name: 'Node.js',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg',
-        link: 'https://nodejs.org/en/'
-    },
-    {
-        id: 1,
-        name: 'Git',
-        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg',
-        link: 'https://git-scm.com'
-    },
-    {
-        id: 1,
-        name: 'Netlify',
-        img: 'https://static-00.iconduck.com/assets.00/netlify-icon-2045x2048-j2yz3d5y.png',
-        link: 'https://www.netlify.com/'
-    },
-    {
-        id: 1,
-        name: 'Render',
-        img: 'https://tutorials.yax.com/assets/images/articles/render-logo.png',
-        link: 'https://render.com/'
-    }
-]
+import skills from '../../data/techSkills'
 
 function Fullstack() {
+
+    const fullstack = ['React.js', 'Javascript', 'HTML 5', 'CSS 3', 'Node.js', 'Git', 'Netlify', 'Render']
+
+    const fullstackArray = skills.filter(skill => 
+        fullstack.includes(skill.name)
+    )
+
     return(
         <div className='fullstack experience__section'>
 
@@ -60,18 +18,17 @@ function Fullstack() {
                         Engineering Student
                     </div>
                     <div>
-                        <span>March 2024 - Present</span>
-                        <span>San Antontio, Texas - Remote</span>
+                        <span>Sept 2024 - Dec 2024</span>
+                        <span>New York, NY - Remote</span>
                     </div>
                 </div>
             </div>
 
             <ul className='experience__details'>
-                <li>Respond to customer inquiries and assist in troubleshooting and resolving challenges</li>
-                <li>Research, diagnose, troubleshoot and identify solutions to resolve customer issues</li>
-                <li>Provide prompt and accurate feedback to customers</li>
-                <li>Review and publish code to production</li>
-                <li>Document knowledge in the form of knowledge base tech notes and articles</li>
+                <li>Full time 12-week immersive software engineering and web development bootcamp</li>
+                <li>Weekly personal and group projects focused on JavaScript, React.js, Express.js, Node.js, and PostgreSQL</li>
+                <li>Demonstrate full-stack web development skills and teamwork</li>
+                <li>Capstone project: with a team of four students build a fully functional e-commerce web application from the ground up, deploy both front and back end services, present project in recorded presentation to graduate.</li>
             </ul>
 
             <div className='techstack'>

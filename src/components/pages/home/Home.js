@@ -1,6 +1,6 @@
-import Name from "../components/Name"
-import Skills from "../components/Skills"
-import Quote from "../components/Quote"
+import Name from "../../components/Name"
+import Skills from "./Skills"
+import Quote from "../../components/Quote"
 
 function Home() {
     return (

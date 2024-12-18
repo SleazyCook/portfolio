@@ -1,4 +1,4 @@
-import Instagram from "../components/Instagram"
+import Instagram from "./Instagram"
 
 function Interests() {
     return(

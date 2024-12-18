@@ -88,10 +88,6 @@
   text-align: right;
 }
 
-.searchspring, .guildgaming, .fullstack {
-  margin-left: 2rem;
-}
-
 .guildgaming {
   background-color: grey;
   padding-top: 2.5rem;
@@ -101,8 +97,6 @@
   display: flex;
   justify-content: center;
 }
-
-
 
 .guildgaming__header--sub {
   margin-right: 6rem;
