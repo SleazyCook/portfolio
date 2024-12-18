@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
-const URL = 'https://zenquotes.io/api/quotes/'
+const URL = 'https://zenquotes.io/api/quotes/[random]'
 
 function Quote() {
 
@@ -10,7 +10,7 @@ function Quote() {
             console.log(result)
         }
         fetchData()
-    })
+    }, [])
 
     return(
         <div className='quote'>

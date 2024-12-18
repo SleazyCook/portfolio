@@ -5,6 +5,7 @@ import Sidebar from './Sidebar.js'
 import '../../styles/app/app.css'
 import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
+import '../../styles/pages/experience.css'
 
 function App() {
     return (
