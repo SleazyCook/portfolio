@@ -1,5 +1,6 @@
 import Name from "../components/Name"
 import Skills from "../components/Skills"
+import Quote from "../components/Quote"
 
 function Home() {
     return (
@@ -7,10 +8,11 @@ function Home() {
 
             <Name />
             
-            {/* Include QUOTES api */}
-
             {/* Include skills - see github */}
             <Skills />
+
+            {/* Include QUOTES api */}
+            <Quote />
 
             </div>
     )

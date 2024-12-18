@@ -1,5 +1,3 @@
-
-
 function Skills() {
 
     const codeArray = [

@@ -331,3 +331,8 @@ body {
   height: 36px;
   width: 36px;
 }
+
+.quote {
+  text-align: center;
+  margin: 1rem 0;
+}
