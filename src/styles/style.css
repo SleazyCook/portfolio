@@ -51,8 +51,8 @@ body {
 
 .social-icons__link:hover img {
 	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+	-webkit-animation: flash 1s;
+	animation: flash 1s;
   /* filter: drop-shadow(0 1mm 1mm white); */
 }
 @-webkit-keyframes flash {
@@ -281,14 +281,30 @@ body {
   }
 }
 
-
 .spotify {
   width: 95%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 /* pages */
 
 .page {
   min-width: 700px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill-icon__container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+.skill-icon img {
+  height: 36px;
+  width: 36px;
 }
