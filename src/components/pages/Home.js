@@ -1,8 +1,11 @@
+import Name from "../components/Name"
 import Skills from "../components/Skills"
 
 function Home() {
     return (
         <div className='page home'>
+
+            <Name />
             
             {/* Include QUOTES api */}
 
