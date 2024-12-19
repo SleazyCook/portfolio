@@ -26,6 +26,7 @@ body {
 
 .app__content {
   border: 2px solid red;
+  border-top: none;
   max-width: 2000px;
   display: flex;
   position: relative;
