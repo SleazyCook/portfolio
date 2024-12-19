@@ -18,8 +18,6 @@ function App() {
         height: window.innerheight
     })
 
-    console.log(windowSize)
-
     // Quote API
     const [quote, setQuote] = useState(null)
     const [loading, setLoading] = useState(true)

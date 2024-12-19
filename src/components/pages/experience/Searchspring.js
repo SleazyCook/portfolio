@@ -18,7 +18,7 @@ function Searchspring() {
                             Software Engineer
                         </div>
                         <div>
-                            <span>Mar 2024 - Present</span>
+                            <span>Feb 2024 - Present</span>
                             <span>San Antontio, TX - Remote</span>
                         </div>
                     </div>
