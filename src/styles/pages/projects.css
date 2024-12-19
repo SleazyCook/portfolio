@@ -2,24 +2,10 @@
 
 }
 
-.project {
-    background-color: gray;
-    border-radius: 1rem;
-    padding: 1rem;
-    max-width: 600px;
-    margin: 1rem auto;
-}
-
 /* Tech Stack Skills  -------------------- */
 .projects__skills-container {
     text-align: center;
     margin-bottom: 1rem;
-}
-
-/* Image Container ----------------------- */
-
-.project__image {
-    width: 100%;
 }
 
 /* Video Container ------------------------*/

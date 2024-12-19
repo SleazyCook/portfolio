@@ -6,6 +6,7 @@ import Sidebar from './Sidebar.js'
 import '../../styles/app/app.css'
 import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
+import '../../styles/components/card.css'
 import '../../styles/pages/experience.css'
 import '../../styles/pages/projects.css'
 import '../../styles/pages/interests.css'
@@ -40,6 +41,8 @@ function App() {
                 setLoading(false);
             }
         };
+
+
 
         fetchData();
     }, [])

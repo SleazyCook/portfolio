@@ -17,7 +17,7 @@ function Projects() {
                 )
 
                 return(
-                    <div className='project' key={projObj.id}>
+                    <div className='card' key={projObj.id}>
 
                         {/* Video OR Image */}
                         {projObj.video &&
@@ -35,7 +35,7 @@ function Projects() {
 
                         {projObj.img &&
                             <img 
-                                className='project__image' 
+                                className='card__image' 
                                 src={projObj.img} 
                                 alt={`image preview of ${projObj.name}`} 
                             /> 

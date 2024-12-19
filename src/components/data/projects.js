@@ -27,7 +27,7 @@ const projects = [
         description: 'Solo Javascript Project',
         highlights: ['Prompt images', 'Visual Inventory', 'Multiple endings'],
         stack: ['HTML 5', 'Javascript', 'CSS 3'],
-        img: 'https://i.imgur.com/Egr0dxG.jpg'    
+        img: 'https://i.imgur.com/CXaurXy.png'    
     },
     {
         id: 4,
