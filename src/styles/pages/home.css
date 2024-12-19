@@ -39,3 +39,11 @@
     text-align: center;
     margin: 1rem 0;
 }
+
+.quote span {
+    display: block;
+}
+
+.quote span:nth-child(1) {
+    font-size: 1.5rem;
+}

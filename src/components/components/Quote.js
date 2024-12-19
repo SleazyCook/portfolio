@@ -1,20 +1,15 @@
+import { useOutletContext } from "react-router-dom"
 
 
 function Quote() {
-
-    // moved to App.js
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         const result = await fetch(URL, {mode: 'no-cors'})
-    //         console.log(result)
-    //     }
-    //     fetchData()
-    // }, [])
+    const {quoteObj: [quote, setQuote]} = useOutletContext()
 
     return(
         <div className='quote'>
 
-            Quote - API Response
+            <span>"{quote?.content}"</span>
+            <span>- {quote?.author}</span>
+
         </div>
     )
 }
