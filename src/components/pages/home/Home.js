@@ -15,8 +15,8 @@ function Home() {
             {/* Include skills - see github */}
             <Skills />
 
-            {/* Include QUOTES api */}
-            {quote.length && <Quote />}
+            {/* QUOTES api */}
+            {quote.content.length && <Quote />}
 
             </div>
     )
