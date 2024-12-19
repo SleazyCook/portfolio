@@ -11,7 +11,7 @@ const interests = [
         id: 2,
         name: 'Movies',
         link: 'https://letterboxd.com/sleazycook/',
-        img: 'https://i.imgur.com/zExNn1R.png',
+        img: 'https://i.imgur.com/ufRX8v1.jpg',
         description: 'Going to the theater at least once a week. AMC A-List subscriber.',
         linkText: 'Follow me on Letterboxd'
     },

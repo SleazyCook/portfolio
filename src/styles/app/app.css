@@ -52,6 +52,10 @@ body {
 }
 
 @media (max-width: 800px) {
+  .app-content {
+    min-width: 100svw;
+  }
+
   .page {
     min-width: 350px;
     max-width: 350px;
