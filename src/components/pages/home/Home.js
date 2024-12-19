@@ -16,7 +16,7 @@ function Home() {
             <Skills />
 
             {/* QUOTES api */}
-            {quote.content.length && <Quote />}
+            {quote?.content?.length && <Quote />}
 
             </div>
     )

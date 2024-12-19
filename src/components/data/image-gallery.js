@@ -1,3 +1,5 @@
+// image gallery for experience components
+
 const imageArray = [
     {
         id: 1,
