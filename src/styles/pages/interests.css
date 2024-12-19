@@ -18,7 +18,7 @@
     color: white;
 }
 
-/* External Link Button ----------------- */
+/* External / Social Link Button ----------------- */
 .interests__social-btn {
     position: relative;
     border: none;
@@ -31,13 +31,13 @@
     touch-action: manipulation;
 
     display: block;
-    margin-top: 2rem auto 0 auto;
+    margin-top: 1rem auto 0 auto;
     width: 300px;
     text-align: center;
     text-decoration: none;
    }
    
-   .shadow {
+   .interests__social-btn--shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@
        cubic-bezier(.3, .7, .4, 1);
    }
    
-   .edge {
+   .interests__social-btn--edge {
     position: absolute;
     top: 0;
     left: 0;
@@ -68,7 +68,7 @@
      );
    }
    
-   .front {
+   .interests__social-btn--front {
     display: block;
     position: relative;
     padding: 12px 27px;
@@ -87,26 +87,26 @@
     filter: brightness(110%);
    }
    
-   .interests__social-btn:hover .front {
+   .interests__social-btn:hover .interests__social-btn--front {
     transform: translateY(-6px);
     transition: transform
        250ms
        cubic-bezier(.3, .7, .4, 1.5);
    }
    
-   .interests__social-btn:active .front {
+   .interests__social-btn:active .interests__social-btn--front {
     transform: translateY(-2px);
     transition: transform 34ms;
    }
    
-   .interests__social-btn:hover .shadow {
+   .interests__social-btn:hover .interests__social-btn--shadow {
     transform: translateY(4px);
     transition: transform
        250ms
        cubic-bezier(.3, .7, .4, 1.5);
    }
    
-   .interests__social-btn:active .shadow {
+   .interests__social-btn:active .interests__social-btn--shadow {
     transform: translateY(1px);
     transition: transform 34ms;
    }

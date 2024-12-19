@@ -32,9 +32,9 @@ function Interests() {
                         {/* Link text */}
                         <div className='flex-center'>
                             <a className='interests__social-btn' href={intObj.link} target='_blank'>
-                                <span class="shadow"></span>
-                                <span class="edge"></span>
-                                <span class="front text"> {intObj.linkText}</span>
+                                <span class="interests__social-btn--shadow"></span>
+                                <span class="interests__social-btn--edge"></span>
+                                <span class="interests__social-btn--front interests__social-btn--text"> {intObj.linkText}</span>
                             </a>
                         </div>
 
