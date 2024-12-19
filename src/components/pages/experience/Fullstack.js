@@ -18,7 +18,7 @@ function Fullstack() {
     )
 
     return(
-        <div className='fullstack experience__section'>
+        <div className='card'>
 
             <div className='fullstack__header'>
                 <a href='https://www.fullstackacademy.com' target='_blank'>

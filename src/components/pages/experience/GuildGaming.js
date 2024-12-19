@@ -18,7 +18,7 @@ function GuildGaming() {
     )
 
     return(
-        <div className='guildgaming experience__section'>
+        <div className='card'>
 
             <div className='guildgaming__header'>
                 <div className='guildgaming__header--main'>

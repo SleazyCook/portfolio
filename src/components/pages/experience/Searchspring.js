@@ -18,7 +18,7 @@ function Searchspring() {
     )
 
     return(
-        <div className='searchspring experience__section'>
+        <div className=' card'>
 
                 <div className='searchspring__header'>
                     <a href='https://searchspring.com' target='_blank'>
