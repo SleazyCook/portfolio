@@ -35,6 +35,7 @@ function ImageGallery({gallery}) {
             {gallery.map((galleryObj, index) => {
                 return(
                     <img 
+                        className='gallery-icon'
                         onClick={() => openModal(index)}
                         src={galleryObj.img} 
                         key={index} 
