@@ -24,7 +24,7 @@ function GuildGaming() {
                 <div className='guildgaming__header--main'>
                     <a href='https://www.guildgaming.gg' target='_blank'>
                         <img src='https://i.imgur.com/JlNLTHp.png' alt='Guild Gaming logo' />
-                        <span>Guild Gaming</span>
+                        <span className='guildgaming__name'>Guild Gaming</span>
                     </a>
                 </div>
 

@@ -11,13 +11,17 @@
   max-width: 600px;
 }
 
-.fullstack {
-  background-color: grey;
-}
-
-/* see styles for resume button at bottom of stylesheet */
 .searchspring {
   background-color: darkgray;
+}
+
+.guildgaming {
+  background-color: grey;
+  padding-top: 2.5rem;
+}
+
+.fullstack {
+  background-color: grey;
 }
 
 .searchspring__header {
@@ -40,7 +44,9 @@
   max-height: 3.5rem;
 }
 
-
+.fullstack__header img {
+  max-height: 5rem;  
+}
 
 .guildgaming__header--main a {
   text-decoration: none;
@@ -48,7 +54,7 @@
   justify-content: center;
 }
 
-.guildgaming__header--main span {
+.guildgaming__name {
   line-height: 3.5rem;
   vertical-align: middle;
   font-size: 3.5rem;
@@ -56,63 +62,76 @@
   font-family: "apotek-wide", sans-serif;
   color: #FDB905;
   text-transform: uppercase;
+  display: block;
 }
 
-.fullstack__header img {
-  max-height: 5rem;  
+@media (max-width: 800px) {
+  .searchspring__header img {
+    max-height: 5rem;
+  }
+
+  .guildgaming__header img {
+    max-height: 2.5rem;
+  }
+
+  .guildgaming__name {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .fullstack__header img {
+    max-height: 3rem;
+  }
 }
 
-.searchspring__header--sub {
-  margin-right: 5rem;
-  margin-top: -2rem;
-  margin-bottom: 1rem;
-}
+/* sub header & job title ----------- */
 
 .searchspring__header--sub,
 .guildgaming__header--sub {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 6rem;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
 }
 
-.fullstack__header--sub {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 6rem;
+.searchspring__header--sub {
+  margin-top: -2rem;
 }
 
-.fullstack__header--sub span {
-  display: block;
-  margin-right: 6rem;
-  text-align: right;
-}
-
-.job-title {
-  vertical-align: middle;
-  font-size: 1.5rem;
+.guildgaming__header--sub,
+.fullstack__header--sub  {
+  margin: 1rem auto;
 }
 
 .searchspring__header--sub span,
-.guildgaming__header--sub span {
+.guildgaming__header--sub span,
+.fullstack__header--sub span {
   display: block;
-  text-align: right;
 }
 
-.guildgaming {
-  background-color: grey;
-  padding-top: 2.5rem;
+.job-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
-.guildgaming__header--sub {
-  margin-right: 6rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+@media (max-width: 800px) {
+  .searchspring__header--sub,
+  .guildgaming__header--sub {
+    width: 300px;
+  }
+  .searchspring__header--sub {
+    margin-top: -1rem;
+  }
+  .job-title {
+    font-size: 1.25rem;
+  }
 }
+
+/* details and tech stack ----------------- */
 
 .experience__details {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 }
 
 .experience__details li {
@@ -134,6 +153,16 @@
 
 .experience__skills-container {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .experience__details li {
+    margin-left: 1rem;
+  }
+  .experience__skills-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 
@@ -159,6 +188,10 @@
 
 .gallery-icon:not(:last-child) {
   margin-right: .5rem;
+}
+
+@media (max-width: 800px) {
+
 }
 
 /* modal -----------------------*/
