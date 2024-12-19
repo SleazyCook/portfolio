@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
+
 import Instagram from "./Instagram"
 import Letterboxd from './Letterboxd'
 
 import interests from '../../data/interests'
 
 function Interests() {
+
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0})
+      }, [])
 
     return(
         <div className='page interests'>

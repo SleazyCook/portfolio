@@ -1,7 +1,14 @@
+import { useEffect } from 'react'
+
 import projects from "../../data/projects"
 import skills from "../../data/techSkills"
 
 function Projects() {
+
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0})
+      }, [])
+
     return(
         <div className='page projects'>
 

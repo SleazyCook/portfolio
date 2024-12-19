@@ -1,3 +1,5 @@
+import { useEffect } from "react"
+
 import Resume from "./Resume"
 import Searchspring from "./Searchspring"
 import GuildGaming from "./GuildGaming"
@@ -7,14 +9,16 @@ import Fullstack from "./Fullstack"
 
 function Experience() {
 
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0})
+      }, [])
+
     return(
         <div className='page experience'>
 
             <h2 className='page__title'>
                 Experience
             </h2>
-
-            <Resume />
 
             <Searchspring />
 
