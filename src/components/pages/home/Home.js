@@ -1,8 +1,12 @@
+import { useOutletContext } from "react-router-dom"
+
 import Name from "../../components/Name"
 import Skills from "./Skills"
 import Quote from "../../components/Quote"
 
 function Home() {
+    const {quoteObj: [quote, setQuote]} = useOutletContext()
+
     return (
         <div className='page home'>
 
@@ -12,7 +16,7 @@ function Home() {
             <Skills />
 
             {/* Include QUOTES api */}
-            <Quote />
+            {quote.length && <Quote />}
 
             </div>
     )
