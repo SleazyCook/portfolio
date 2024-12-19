@@ -15,7 +15,7 @@ function App() {
     // Window Size
     const [windowSize, setWindowSize] = useState({
         width: window.innerWidth,
-        height: window.innerheight
+        height: window.innerHeight
     })
 
     // Quote API
