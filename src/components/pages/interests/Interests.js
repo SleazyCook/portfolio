@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 
-import Instagram from "./Instagram"
-import Letterboxd from './Letterboxd'
+import MobileButton from '../../app/MobileButton'
 
 import interests from '../../data/interests'
 
@@ -14,14 +13,11 @@ function Interests() {
     return(
         <div className='page interests'>
 
+            <MobileButton />
+
             <h2 className='page__title'>
                 Interests
             </h2>
-
-            {/* movies */}
-            {/* photography */}
-            {/* concerts */}
-            {/* d&d */}
 
             {interests.map((intObj) => {
                 return(

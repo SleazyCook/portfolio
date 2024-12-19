@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-import Resume from "./Resume"
+import MobileButton from "../../app/MobileButton"
 import Searchspring from "./Searchspring"
 import GuildGaming from "./GuildGaming"
 import Fullstack from "./Fullstack"
@@ -15,6 +15,8 @@ function Experience() {
 
     return(
         <div className='page experience'>
+
+            <MobileButton />
 
             <h2 className='page__title'>
                 Experience

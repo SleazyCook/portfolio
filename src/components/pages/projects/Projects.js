@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 
+import MobileButton from '../../app/MobileButton'
+
 import projects from "../../data/projects"
 import skills from "../../data/techSkills"
 
@@ -11,6 +13,8 @@ function Projects() {
 
     return(
         <div className='page projects'>
+
+            <MobileButton />
 
             <h2 className='page__title'>
                 Projects
@@ -30,7 +34,7 @@ function Projects() {
                         {projObj.video &&
                             <div className='embed-container'>
                                 <iframe 
-                                    src={projObj.video}
+                                    src={`${projObj.video}?wmode=transparent`}
                                     title="YouTube video player" 
                                     frameBorder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
