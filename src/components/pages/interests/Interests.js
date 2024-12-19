@@ -30,9 +30,14 @@ function Interests() {
                         {intObj.description}
 
                         {/* Link text */}
-                        <a href={intObj.link} target='_blank'>
-                            {intObj.linkText}
-                        </a>
+                        <div className='flex-center'>
+                            <a className='interests__social-btn' href={intObj.link} target='_blank'>
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span class="front text"> {intObj.linkText}</span>
+                            </a>
+                        </div>
+
                     </div>
                 )
             })}

@@ -3,7 +3,7 @@ const interests = [
         id: 1,
         name: 'Photography',
         link: 'https://www.instagram.com/developedbydrewford/',
-        img: 'https://i.imgur.com/k4VTtn2.jpg',
+        img: 'https://i.imgur.com/o3TGB2S.jpg',
         description: 'Hobby photographer, taking pictures every day with my SONY ZV-1',
         linkText: 'Follow me on Instagram'
     },
@@ -27,7 +27,7 @@ const interests = [
         id: 4,
         name: 'Travel',
         link: 'https://www.instagram.com/developedbydrewford/',
-        img: 'https://i.imgur.com/aTSYCtH.png',
+        img: 'https://i.imgur.com/k4VTtn2.jpg',
         description: 'Traveling domestically and internationally throughout the Year',
         linkText: 'Follow me on Instagram'
     },
@@ -49,20 +49,21 @@ const interests = [
     },
     {
         id: 7,
+        name: 'Video Games',
+        link: 'https://steamcommunity.com/profiles/76561198829311676/',
+        img: 'https://i.imgur.com/tRrzASy.png',
+        description: '',
+        linkText: 'Follow me on Steam'
+    },
+    {
+        id: 8,
         name: 'Board Games',
         link: 'https://boardgamegeek.com/boardgame/10547/betrayal-at-house-on-the-hill',
         img: 'https://i.imgur.com/C7HKW3p.png',
         description: 'Betrayal at House on the Hill or otherwise',
         linkText: 'Learn about Betrayal'
     },
-    {
-        id: 8,
-        name: 'Video Games',
-        link: 'https://steamcommunity.com/profiles/76561198829311676/',
-        img: 'https://i.imgur.com/tRrzASy.png',
-        description: '',
-        linkText: 'Follow me on Steam'
-    }
+
 ]
 
 export default interests;
