@@ -29,7 +29,7 @@ function Fullstack() {
                         Engineering Student
                     </div>
                     <div>
-                        <span>Sept 2024 - Dec 2024</span>
+                        <span>Sept 2022 - Dec 2022</span>
                         <span>New York, NY - Remote</span>
                     </div>
                 </div>
