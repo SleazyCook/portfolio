@@ -40,6 +40,14 @@
   max-height: 3.5rem;
 }
 
+
+
+.guildgaming__header--main a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 .guildgaming__header--main span {
   line-height: 3.5rem;
   vertical-align: middle;
@@ -93,11 +101,6 @@
 .guildgaming {
   background-color: grey;
   padding-top: 2.5rem;
-}
-
-.guildgaming__header--main {
-  display: flex;
-  justify-content: center;
 }
 
 .guildgaming__header--sub {

@@ -21,7 +21,9 @@ function Fullstack() {
         <div className='fullstack experience__section'>
 
             <div className='fullstack__header'>
-                <img src='https://i.imgur.com/dal0qO4.png' alt='Fullstack Academy logo' />
+                <a href='https://www.fullstackacademy.com' target='_blank'>
+                    <img src='https://i.imgur.com/dal0qO4.png' alt='Fullstack Academy logo' />
+                </a>
                 <div className='fullstack__header--sub'>
                     <div className='job-title'>
                         Engineering Student

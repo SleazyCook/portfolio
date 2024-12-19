@@ -21,7 +21,9 @@ function Searchspring() {
         <div className='searchspring experience__section'>
 
                 <div className='searchspring__header'>
-                    <img src='https://i.imgur.com/jGcPONP.png' alt='Searchspring logo' />
+                    <a href='https://searchspring.com' target='_blank'>
+                        <img src='https://i.imgur.com/jGcPONP.png' alt='Searchspring logo' />
+                    </a>
                     <div className='searchspring__header--sub'>
                         <div className='job-title'>
                             Software Engineer

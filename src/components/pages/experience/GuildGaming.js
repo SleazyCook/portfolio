@@ -22,8 +22,10 @@ function GuildGaming() {
 
             <div className='guildgaming__header'>
                 <div className='guildgaming__header--main'>
-                    <img src='https://i.imgur.com/JlNLTHp.png' alt='Guild Gaming logo' />
-                    <span>Guild Gaming</span>
+                    <a href='https://www.guildgaming.gg' target='_blank'>
+                        <img src='https://i.imgur.com/JlNLTHp.png' alt='Guild Gaming logo' />
+                        <span>Guild Gaming</span>
+                    </a>
                 </div>
 
                 <div className='guildgaming__header--sub'>
