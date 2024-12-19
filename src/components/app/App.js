@@ -12,6 +12,15 @@ const URL = 'https://api.quotable.io/quotes/random?maxLength=50'
 
 function App() {
 
+    // Window Size
+    const [windowSize, setWindowSize] = useState({
+        width: window.innerWidth,
+        height: window.innerheight
+    })
+
+    console.log(windowSize)
+
+    // Quote API
     const [quote, setQuote] = useState(null)
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
@@ -40,7 +49,7 @@ function App() {
 
             <div className='app__content'>
 
-                <Sidebar />
+                {windowSize.width > 1000 ? <Sidebar /> : ''}
 
                 <Outlet context={{
                     quoteObj: [quote, setQuote],
