@@ -1,11 +1,20 @@
+import ImageGallery from './ImageGallery'
+
 import skills from '../../data/techSkills'
+import imageArray from '../../data/image-gallery'
 
 function GuildGaming() {
 
+    // tech stack images
     const guild = ['React.js', 'Typescript', 'HTML 5', 'Tailwind CSS', 'PostgreSQL', 'Node.js', 'Git', 'Figma']
-
     const guildArray = skills.filter(skill => 
         guild.includes(skill.name)
+    )
+
+    // gallery images
+    const guildImages = ['guild gaming map icons', 'guild gaming mobile map', 'guild gaming certificate']
+    const gallery = imageArray.filter(image =>
+        guildImages.includes(image.alt)
     )
 
     return(
@@ -48,6 +57,8 @@ function GuildGaming() {
                     })}
                 </div>
             </div>
+
+            <ImageGallery gallery={gallery}/>
 
         </div>
     )

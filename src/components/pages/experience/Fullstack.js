@@ -1,11 +1,20 @@
+import ImageGallery from './ImageGallery'
+
 import skills from '../../data/techSkills'
+import imageArray from '../../data/image-gallery'
 
 function Fullstack() {
 
+    // tech skills images
     const fullstack = ['React.js', 'Javascript', 'HTML 5', 'CSS 3', 'Node.js', 'Git', 'Netlify', 'Render']
-
     const fullstackArray = skills.filter(skill => 
         fullstack.includes(skill.name)
+    )
+
+    // gallery images
+    const searchImages = ['full stack academy certificate']
+    const gallery = imageArray.filter(image =>
+        searchImages.includes(image.alt)
     )
 
     return(
@@ -43,6 +52,10 @@ function Fullstack() {
                     })}
                 </div>
             </div>
+
+            <ImageGallery gallery={gallery}/>
+
+
         </div>
     )
 }

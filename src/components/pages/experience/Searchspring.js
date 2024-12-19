@@ -1,11 +1,20 @@
+import ImageGallery from './ImageGallery'
+
 import skills from '../../data/techSkills'
+import imageArray from '../../data/image-gallery'
 
 function Searchspring() {
 
+    // tech skills icons
     const searchspring = ['Javascript', 'Preact', 'HTML 5', 'CSS 3', 'Groovy Script', 'AWS', 'Shopify', 'Magento', 'BigCommerce', 'Git']
-
     const searchspringArray = skills.filter(skill => 
         searchspring.includes(skill.name)
+    )
+
+    // gallery images
+    const searchImages = ['searchspring product', 'searchspring autocomplete', 'searchspring partners']
+    const gallery = imageArray.filter(image =>
+        searchImages.includes(image.alt)
     )
 
     return(
@@ -44,6 +53,9 @@ function Searchspring() {
                         })}
                     </div>
                 </div>
+
+                <ImageGallery gallery={gallery}/>
+
 
             </div>
     )
