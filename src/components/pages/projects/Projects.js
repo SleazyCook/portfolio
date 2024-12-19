@@ -42,20 +42,24 @@ function Projects() {
                         }
 
                         {/* Linked Title  & Description */}
-                        <a href={projObj.link} target='_blank'>
+                        <a href={projObj.link} target='_blank' className='card__title card__link'>
                             <h3>{projObj.name}</h3>
                         </a>
 
-                        <div>{projObj.description}</div>
+                        <span className='projects__description'>{projObj.description}</span>
 
-                        {/* Highlights List */}
-                        {projObj.highlights.map((highlight, index) => {
-                            return(
-                                <div key={index}>
-                                    {highlight}
-                                </div>
-                            )
-                        })}
+                        {projObj.blurb}
+
+                        <ul className='highlights__container'>
+                            {/* Highlights List */}
+                            {projObj.highlights.map((highlight, index) => {
+                                return(
+                                    <li key={index}>
+                                        {highlight}
+                                    </li>
+                                )
+                            })}
+                        </ul>
 
                         <div className='projects__skills-container'>
                         {/* Stack */}

@@ -2,6 +2,18 @@
 
 }
 
+.projects__description {
+  display: block;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.highlights__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
 /* Tech Stack Skills  -------------------- */
 .projects__skills-container {
     text-align: center;
