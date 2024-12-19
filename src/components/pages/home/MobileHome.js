@@ -9,7 +9,6 @@ import navArray from '../../data/nav.js'
 function MobileHome() {
     return (
         <div className='mobile-home'>
-            <Name />
 
             {/* Social Icon Links */}
             <div className='social-icons'>
@@ -22,7 +21,11 @@ function MobileHome() {
                     })}
                 </div>
 
-            {/* <Skills /> */}
+            <Name />
+
+            <Skills />
+
+
 
             <div className='mobile-link__container'>
                 {navArray.map((item, index) => {
@@ -35,6 +38,8 @@ function MobileHome() {
                     )
                 })}
             </div>
+
+
 
 
         </div>
