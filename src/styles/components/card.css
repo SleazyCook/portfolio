@@ -9,3 +9,13 @@
 .card__image {
     width: 100%;
 }
+
+.card__title {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+}

@@ -24,10 +24,12 @@ function Interests() {
                         <img className='card__image' src={intObj.img} alt={intObj.name}/>
 
                         {/* Name */}
-                        {intObj.name}
+                        <div className='card__title'>{intObj.name}</div>
 
                         {/* Details */}
                         {intObj.description}
+
+                        <br /><br />
 
                         {/* Link text */}
                         <div className='flex-center'>
