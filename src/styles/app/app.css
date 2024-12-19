@@ -21,7 +21,6 @@ body {
 .app {
   display: flex;
   justify-content: center;
-
   color: white;
 }
 
@@ -29,6 +28,7 @@ body {
   border: 2px solid red;
   max-width: 2000px;
   display: flex;
+  position: relative;
 }
 
 .page {

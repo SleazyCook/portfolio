@@ -165,6 +165,12 @@
   }
 }
 
+@media (min-width: 800px) {
+  .experience__details li {
+    margin-right: 3.5rem;
+  }
+}
+
 
 /* image galley ----------------------------- */
 

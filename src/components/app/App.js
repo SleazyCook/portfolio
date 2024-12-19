@@ -7,6 +7,8 @@ import '../../styles/app/app.css'
 import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
 import '../../styles/pages/experience.css'
+import '../../styles/pages/projects.css'
+import '../../styles/pages/interests.css'
 
 const URL = 'https://api.quotable.io/quotes/random?maxLength=50'
 

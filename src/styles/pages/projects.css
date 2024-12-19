@@ -1,0 +1,104 @@
+.projects {
+
+}
+
+.project {
+    background-color: gray;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+/* Tech Stack Skills  -------------------- */
+.projects__skills-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Image Container ----------------------- */
+
+.project__image {
+    width: 100%;
+}
+
+/* Video Container ------------------------*/
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+} 
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Github Button  --------------------------- */
+
+.button-icon {
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  .icon {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .icon svg {
+    width: 25px;
+    height: 28px;
+  }
+  
+  .cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .button-icon:hover {
+    border-color: #ff98a2;
+  }
+  
+  .button-icon:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  
+  .top {
+    background: #ff98a2;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  }
+  
+  .front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+  }
+  
