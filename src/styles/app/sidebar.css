@@ -4,6 +4,8 @@
     width: 25rem;
 }
 
+/* Avatar & Socials ------------------ */
+
 .avatar {
     max-height: 150px;
     border-radius: 50%;
@@ -25,8 +27,9 @@
     opacity: 1;
     -webkit-animation: flash 1s;
     animation: flash 1s;
-/* filter: drop-shadow(0 1mm 1mm white); */
 }
+
+/* NAVBAR -------------------------- */
 @-webkit-keyframes flash {
     0% {
         opacity: .4;

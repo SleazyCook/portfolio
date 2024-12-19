@@ -10,6 +10,10 @@ function Experience() {
     return(
         <div className='page experience'>
 
+            <h2 className='page__title'>
+                Experience
+            </h2>
+
             <Resume />
 
             <Searchspring />
