@@ -1,3 +1,4 @@
+
 .sidebar {
     text-align: center;
     width: 25rem;
@@ -15,6 +16,35 @@
 .avatar {
     max-height: 150px;
     border-radius: 50%;
+    transition: .2s;
+    border: 5px solid white;
+}
+
+.avatar:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+.sidebar__name {
+    display: block;
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
 }
 
 .social-icons {

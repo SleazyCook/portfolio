@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import iconArray from "../data/social"
 import Navigation from "./Navigation"
 import Spotify from '../components/Spotify'
@@ -8,12 +10,14 @@ function Sidebar() {
         <div className='sidebar'>
 
             {/* Avatar */}
-            <img className='avatar' src='https://i.imgur.com/T09m2sD.png' />
-            <br />
+            <Link to='/'>
+                <img className='avatar' src='https://i.imgur.com/T09m2sD.png' />
+            </Link>
 
             {/* Name */}
-            Andrew Cook <br />
-            Houston, TX
+            <Link to='/'>
+            <span className='sidebar__name'>Andrew Cook </span>
+            </Link>
 
             {/* Social Icon Links */}
                 <div className='social-icons'>
