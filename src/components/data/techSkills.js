@@ -8,7 +8,7 @@ const skills = [
     {
         id: 2,
         name: 'Typescript',
-        img: 'https://github.com/user-attachments/assets/0f66057f-e906-4c07-b2b9-dcdd8034c947',
+        img: 'https://i.imgur.com/qVyB3ha.png',
         link: 'https://www.typescriptlang.org/'
     },
     {
@@ -20,7 +20,7 @@ const skills = [
     {
         id: 4,
         name: 'Groovy Script',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1024px-Groovy-logo.svg.png',
+        img: 'https://i.imgur.com/1zL96d1.png',
         link: 'https://groovy-lang.org/',
         width: '72'
     },
@@ -57,13 +57,13 @@ const skills = [
     {
         id: 10,
         name: 'Preact',
-        img: 'https://preactjs.com/app-icon.png',
+        img: 'https://i.imgur.com/q4FN6WB.png',
         link: 'https://preactjs.com/'
     },
     {
         id: 11,
         name: 'Next.js',
-        img: 'https://github.com/user-attachments/assets/e2fb92e6-7948-4eda-bb5c-a46e4304ae35',
+        img: 'https://i.imgur.com/vGgYUHt.png',
         link: 'https://nextjs.org/'
     },
     {
@@ -81,13 +81,13 @@ const skills = [
     {
         id: 14,
         name: 'Netlify',
-        img: 'https://static-00.iconduck.com/assets.00/netlify-icon-2045x2048-j2yz3d5y.png',
+        img: 'https://i.imgur.com/Nl3UItI.png',
         link: 'https://www.netlify.com/'
     },
     {
         id: 15,
         name: 'Render',
-        img: 'https://tutorials.yax.com/assets/images/articles/render-logo.png',
+        img: 'https://i.imgur.com/QEeXUoc.png',
         link: 'https://render.com/'
     },
     {
@@ -99,38 +99,38 @@ const skills = [
     {
         id: 17,
         name: 'AWS',
-        img: 'https://github.com/user-attachments/assets/ea8a56ab-3684-4a88-a65c-66573a777280',
+        img: 'https://i.imgur.com/lSQYRrJ.png',
         link: 'https://aws.amazon.com/',
         width: '72'
     },        
     {
         id: 18,
         name: 'ChatGPT',
-        img: 'https://freepnglogo.com/images/all_img/1700403373logo-chatgpt-png.png',
+        img: 'https://i.imgur.com/UYwsJ1w.png',
         link: 'https://openai.com/index/chatgpt/'
     },        
     {
         id: 19,
         name: 'Figma',
-        img: 'https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png',
+        img: 'https://i.imgur.com/Mu27IwI.png',
         link: 'https://www.figma.com/'
     },        
     {
         id: 20,
         name: 'Shopify',
-        img: 'https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png',
+        img: 'https://i.imgur.com/Hq6wS9Q.png',
         link: 'https://www.shopify.com'
     },        
     {
         id: 21,
         name: 'Magento',
-        img: 'https://seeklogo.com/images/M/magento-logo-7F3911AE9E-seeklogo.com.png',
+        img: 'https://i.imgur.com/dCcbpii.png',
         link: 'https://business.adobe.com/products/magento/magento-commerce.html'
     },        
     {
         id: 22,
         name: 'BigCommerce',
-        img: 'https://seeklogo.com/images/B/bigcommerce-logo-6907DF6845-seeklogo.com.png',
+        img: 'https://i.imgur.com/82GwWzj.png',
         link: 'https://www.bigcommerce.com'
     }       
 ]
