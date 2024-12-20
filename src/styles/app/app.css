@@ -88,10 +88,10 @@ body {
   }
 
   .page {
-    min-width: 414px;
-    max-width: 414px;
+    min-width: 95svw;
     border-right: none;
     background: none;
+    padding: 1rem;
   }
 
 }
