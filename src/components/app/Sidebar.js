@@ -16,7 +16,7 @@ function Sidebar() {
 
             {/* Name */}
             <Link to='/'>
-            <span className='sidebar__name'>Andrew Cook </span>
+                <span className='sidebar__name'>Andrew Cook </span>
             </Link>
 
             {/* Social Icon Links */}

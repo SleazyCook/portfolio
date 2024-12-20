@@ -12,6 +12,7 @@ function ImageGallery({gallery}) {
 
     const closeModal = () => {
         setModalOpen(false)
+        console.log('modal is now closed')
     }
 
     const nextImage = () => {
