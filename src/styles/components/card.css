@@ -19,6 +19,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .card__link {
@@ -27,6 +28,11 @@
     transition: all .3s;
 }
 
+.card__link svg {
+    font-size: 1.25rem;
+    vertical-align: center;
+}
+
 .card__link:hover {
-    color: lightblue;
+    color: #00CCCC;
 }

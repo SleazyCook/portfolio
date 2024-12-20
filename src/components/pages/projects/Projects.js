@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 
+import { IoMdOpen } from "react-icons/io";
+
 import MobileButton from '../../app/MobileButton'
 
 import projects from "../../data/projects"
@@ -54,7 +56,7 @@ function Projects() {
 
                         {/* Linked Title  & Description */}
                         <a href={projObj.link} target='_blank' className='card__title card__link'>
-                            <h3>{projObj.name}</h3>
+                            <h3>{projObj.name} <IoMdOpen /></h3>
                         </a>
 
                         <span className='projects__description'>{projObj.description}</span>

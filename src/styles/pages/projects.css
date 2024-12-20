@@ -76,7 +76,7 @@
   }
   
   .button-icon:hover {
-    border-color: #ff98a2;
+    border-color: #00B3B3;
   }
   
   .button-icon:hover .cube {
@@ -97,7 +97,7 @@
   }
   
   .top {
-    background: #ff98a2;
+    background: #00B3B3;
     color: #fff;
     transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
   }

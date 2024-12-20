@@ -45,6 +45,7 @@
     height: 100%;
     border-radius: 12px;
     background: hsl(0deg 0% 0% / 0.25);
+    background: #008080;
     will-change: transform;
     transform: translateY(2px);
     transition: transform
@@ -61,10 +62,10 @@
     border-radius: 12px;
     background: linear-gradient(
        to left,
-       hsl(340deg 100% 16%) 0%,
-       hsl(340deg 100% 32%) 8%,
-       hsl(340deg 100% 32%) 92%,
-       hsl(340deg 100% 16%) 100%
+       hsl(180deg 100% 10%) 0%,
+       hsl(180deg 100% 18%) 8%,
+       hsl(180deg 100% 18%) 92%,
+       hsl(180deg 100% 10%) 100%
      );
    }
    
@@ -75,7 +76,7 @@
     border-radius: 12px;
     font-size: 1.1rem;
     color: white;
-    background: hsl(345deg 100% 47%);
+    background: #00B3B3;
     will-change: transform;
     transform: translateY(-4px);
     transition: transform
