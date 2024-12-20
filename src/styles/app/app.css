@@ -61,6 +61,7 @@ body {
   position: relative;
   overflow: scroll;
   background-color: gray;
+  border-right: 1px solid white;
 }
 
 .page__title {
