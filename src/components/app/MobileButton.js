@@ -21,8 +21,6 @@ function MobileButton() {
         };
     }, []);
 
-  console.log(isMobile)
-
   if (!isMobile) return null;
 
     return(

@@ -51,7 +51,7 @@ body {
   max-width: 2000px;
   display: flex;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .page {
@@ -77,14 +77,24 @@ body {
   font-size: 3rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 999px) {
   .app-content {
     min-width: 100svw;
+    background-color: transparent;
   }
 
   .page {
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 414px;
+    max-width: 414px;
+    border-right: none;
+    background: none;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .app-content {
+    background-color: black;
   }
 }
   

@@ -17,7 +17,7 @@ const interests = [
     },
     {
         id: 3,
-        name: 'Reading books',
+        name: 'Reading',
         link: 'https://www.goodreads.com/user/show/144548225-andrew-cook',
         img: 'https://i.imgur.com/m5mOFW8.png',
         description: `I’m totally hooked on reading—whether it’s an addicting page-turner from Stephen King or a deeply personal nonfiction work by writers like James Baldwin, Kiese Laymon, or Bell Hooks. I love getting lost in stories that challenge and inspire, and there's nothing like the raw honesty in their words. I’m also a huge fan of comics, especially those by Brian K Vaughan or Tom King; they always pull me in with their creativity and depth. Each book, no matter the genre, feels like a new adventure.`,
