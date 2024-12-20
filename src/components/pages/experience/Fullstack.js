@@ -22,7 +22,7 @@ function Fullstack() {
 
             <div className='fullstack__header'>
                 <a href='https://www.fullstackacademy.com' target='_blank'>
-                    <img src='https://i.imgur.com/dal0qO4.png' alt='Fullstack Academy logo' />
+                    <img className='fullstack__img' src='https://i.imgur.com/dal0qO4.png' alt='Fullstack Academy logo' />
                 </a>
                 <div className='fullstack__header--sub'>
                     <div className='job-title'>
