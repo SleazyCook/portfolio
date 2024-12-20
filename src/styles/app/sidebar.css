@@ -1,11 +1,12 @@
 .sidebar {
     text-align: center;
-    border: 2px solid green;
     width: 25rem;
     position: sticky;
     top: 0px;
-    max-height: 90svh;
+    max-height: 100svh;
     padding-top: 2rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 /* Avatar & Socials ------------------ */
