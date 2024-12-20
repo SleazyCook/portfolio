@@ -157,6 +157,11 @@
     transform: rotateX(0deg);
     transform-origin: top center;
     transition: 0.2s;
+    border-bottom: 1px solid white;
+}
+
+.navigation__link span:first-child {
+    border-top: 1px solid white;
 }
 
 /* Home */
