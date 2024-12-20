@@ -60,6 +60,7 @@ body {
   padding: 2rem 0;
   position: relative;
   overflow: scroll;
+  background-color: gray;
 }
 
 .page__title {
