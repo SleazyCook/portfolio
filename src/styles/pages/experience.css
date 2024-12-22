@@ -116,6 +116,12 @@
 .job-title {
   font-size: 1.5rem;
   text-decoration: underline;
+  transition: .2s all;
+  color: white;
+}
+
+.job-title:hover {
+  color:
 }
 
 @media (max-width: 800px) {

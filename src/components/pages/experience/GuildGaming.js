@@ -29,9 +29,11 @@ function GuildGaming() {
                 </div>
 
                 <div className='guildgaming__header--sub'>
-                    <div className='job-title'>
+                    <a href='https://www.guildgaming.gg' 
+                        className='job-title card__title card__link'
+                        target='_blank'>
                         Jr Software Engineer
-                    </div>
+                    </a>
                     <div>
                         <span>May 2023 - Mar 2024</span>
                         <span>San Marcos, TX - Remote</span>

@@ -103,6 +103,10 @@ body {
 
   .page {
     background-color: gray;
+    background: 
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), 
+      url('https://i.imgur.com/BoqJNUS.png'); 
+     background-repeat: repeat;
   }
 }
   

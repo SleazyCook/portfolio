@@ -25,9 +25,9 @@ function Searchspring() {
                         <img src='https://i.imgur.com/jGcPONP.png' alt='Searchspring logo' />
                     </a>
                     <div className='searchspring__header--sub'>
-                        <div className='job-title'>
+                        <a href='https://searchspring.com' className='job-title card__title card__link' target='_blank'>
                             Software Engineer
-                        </div>
+                        </a>
                         <div>
                             <span>Feb 2024 - Present</span>
                             <span>San Antontio, TX - Remote</span>

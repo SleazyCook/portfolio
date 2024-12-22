@@ -5,6 +5,10 @@
     padding: 1rem;
     max-width: 600px;
     margin: 1rem auto;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url('https://i.imgur.com/BoqJNUS.png'); 
+    background-repeat: repeat;
 }
 
 .card__image {

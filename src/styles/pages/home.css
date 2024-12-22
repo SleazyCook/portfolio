@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black !important;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+        url('https://i.imgur.com/BoqJNUS.png'); 
+    background-repeat: repeat;
 }
 
 .home__content {

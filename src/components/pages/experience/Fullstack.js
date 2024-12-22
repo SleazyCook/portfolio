@@ -25,9 +25,11 @@ function Fullstack() {
                     <img className='fullstack__img' src='https://i.imgur.com/dal0qO4.png' alt='Fullstack Academy logo' />
                 </a>
                 <div className='fullstack__header--sub'>
-                    <div className='job-title'>
+                <a href='https://www.fullstackacademy.com' 
+                        className='job-title card__title card__link'
+                        target='_blank'>
                         Engineering Student
-                    </div>
+                    </a>
                     <div>
                         <span>Sept 2022 - Dec 2022</span>
                         <span>New York, NY - Remote</span>
