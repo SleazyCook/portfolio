@@ -18,6 +18,7 @@
     border-radius: 50%;
     transition: .2s;
     border: 5px solid white;
+    transition: all .2s;
 }
 
 .avatar:hover {
@@ -25,6 +26,7 @@
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+    border: 5px solid #00CCCC;
   }
   
   @keyframes spin {
@@ -65,6 +67,10 @@
     opacity: 1;
     -webkit-animation: flash 1s;
     animation: flash 1s;
+}
+
+.social-icons__link:hover .social-icons__icon {
+    border: 3px solid #00CCCC;
 }
 
 /* NAVBAR -------------------------- */
