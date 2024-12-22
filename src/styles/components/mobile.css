@@ -6,6 +6,7 @@
     justify-content: right;
     top: 10px;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .mobile-btn {
@@ -21,7 +22,12 @@
     width: 4rem;
     height: 4rem;
     line-height: 4rem;
-    z-index: 10000000000000;
+    transition: all .2s;
+}
+
+.mobile-btn:hover {
+    background-color: #00CCCC;
+    color: white;
 }
 
 /* mobile home ----------------------- */
