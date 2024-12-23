@@ -21,9 +21,11 @@ body {
   font-weight: <weight>;
   font-style: normal;
   position: relative;
+
 }
 
 .app {
+  min-height: 787px;
   display: flex;
   justify-content: center;
   color: white;
