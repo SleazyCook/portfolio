@@ -28,6 +28,12 @@ const iconArray = [
         name: "Letterboxd",
         link: "https://letterboxd.com/sleazycook/",
         icon: "https://i.imgur.com/gEucxoX.png"
+    },
+    {
+        id: 6,
+        name: "TikTok",
+        link: "https://www.tiktok.com/@sleazycook",
+        icon: "https://i.imgur.com/yau5rNx.png"
     }
 ]
 
