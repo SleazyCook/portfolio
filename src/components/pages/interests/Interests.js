@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 
-import MobileButton from '../../app/MobileButton'
+import MobileButton from '../../../app/MobileButton'
 
-import interests from '../../data/interests'
+import interests from '../../../data/interests'
 
 function Interests() {
 
@@ -23,8 +23,12 @@ function Interests() {
                 return(
                     <div className='card' key={intObj.id}>
                         {/* Image */}
-                        <img className='card__image' src={intObj.img} alt={intObj.name}/>
+                        <div className='card__image--interest-containr'>
 
+                        
+                            <img className='card__image' src={intObj.img} alt={intObj.name}/>
+                        </div>
+                        
                         {/* Name */}
                         <div className='card__title'>{intObj.name}</div>
 

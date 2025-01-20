@@ -1,4 +1,4 @@
-import AndrewCookResume from '../../data/AndrewCookResume.pdf'
+import AndrewCookResume from '../../../data/AndrewCookResume.pdf'
 
 function Resume() {
 

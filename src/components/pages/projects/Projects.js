@@ -2,10 +2,10 @@ import { useEffect } from 'react'
 
 import { IoMdOpen } from "react-icons/io";
 
-import MobileButton from '../../app/MobileButton'
+import MobileButton from '../../../app/MobileButton'
 
-import projects from "../../data/projects"
-import skills from "../../data/techSkills"
+import projects from "../../../data/projects"
+import skills from "../../../data/techSkills"
 
 function Projects() {
 

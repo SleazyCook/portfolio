@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-import MobileButton from "../../app/MobileButton"
+import MobileButton from "../../../app/MobileButton"
 import Searchspring from "./Searchspring"
 import GuildGaming from "./GuildGaming"
 import Fullstack from "./Fullstack"

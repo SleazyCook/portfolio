@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import iconArray from "../data/social"
 import Navigation from "./Navigation"
-import Spotify from '../components/Spotify'
+import Spotify from '../components/components/Spotify'
 
 function Sidebar() {
 

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import Name from '../../components/Name'
 import Skills from './Skills.js'
 
-import iconArray from '../../data/social'
-import navArray from '../../data/nav.js'
+import iconArray from '../../../data/social'
+import navArray from '../../../data/nav.js'
 
 function MobileHome() {
     return (

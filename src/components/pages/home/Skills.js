@@ -1,4 +1,4 @@
-import skills from "../../data/techSkills"
+import skills from "../../../data/techSkills"
 
 function Skills() {
 

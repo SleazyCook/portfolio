@@ -1,7 +1,7 @@
 import ImageGallery from './ImageGallery'
 
-import skills from '../../data/techSkills'
-import imageArray from '../../data/image-gallery'
+import skills from '../../../data/techSkills'
+import imageArray from '../../../data/image-gallery'
 
 function GuildGaming() {
 
