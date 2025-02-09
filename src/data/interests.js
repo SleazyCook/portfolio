@@ -43,7 +43,7 @@ const interests = [
         id: 6,
         name: `Women's Basketball`,
         link: 'https://www.wnba.com',
-        img: 'https://i.imgur.com/egaLscf.png',
+        img: 'https://i.imgur.com/JwBzU7D.jpg',
         description: `I didn’t really get into sports until my 30s, but watching Angel Reese’s rookie year in the WNBA completely hooked me. The culture around women’s sports feels so much more inclusive and wholesome compared to the often intense vibe in mainstream sports. I love traveling to different cities to catch teams play in their hometowns, but when I’m not on the road, I try to catch every game from home. There’s something special about the energy and the community in women’s sports that makes it all feel more personal and exciting.`,
         linkText: 'Learn about WNBA'
     },
