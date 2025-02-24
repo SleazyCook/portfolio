@@ -59,7 +59,7 @@ const interests = [
         id: 8,
         name: 'Board & Card Games',
         link: 'https://vipspades.com/blog/spades-a-simple-guide-for-beginners/',
-        img: 'https://i.imgur.com/C7HKW3p.png',
+        img: 'https://i.imgur.com/lvg3Eqx.jpg',
         description: `I’ve always loved board games and card games—the joy of gathering around a table with others and getting lost in the competition and camaraderie is something truly special. Whether it’s a classic game of Spades, a quick round of Uno, the strategy of Catan, or even something more immersive like Dungeons & Dragons, the in-person experience of playing together is what makes it so magical. There’s just something about that shared energy and laughter that makes every game memorable.`,
         linkText: 'Learn to play Spades'
     },
