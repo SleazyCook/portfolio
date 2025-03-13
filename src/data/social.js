@@ -11,35 +11,36 @@ const iconArray = [
         link: "https://www.linkedin.com/in/developedbydrewford/",
         icon: "https://i.imgur.com/LryOdUs.png"
     },
+    // {
+    //     id: 3,
+    //     name: "Discord",
+    //     link: "https://www.discordapp.com/users/sleazydilettante",
+    //     icon: "https://i.imgur.com/sGZMTIv.png"
+    // },
     {
         id: 3,
-        name: "Discord",
-        link: "https://www.discordapp.com/users/sleazydilettante",
-        icon: "https://i.imgur.com/sGZMTIv.png"
-    },
-    {
-        id: 4,
         name: "Instagram",
         link: "https://www.instagram.com/developedbydrewford/",
         icon: "https://i.imgur.com/15CKT3S.png"
     },
+
     {
-        id: 5,
-        name: "Letterboxd",
-        link: "https://letterboxd.com/sleazycook/",
-        icon: "https://i.imgur.com/gEucxoX.png"
-    },
-    {
-        id: 6,
+        id: 4,
         name: "TikTok",
         link: "https://www.tiktok.com/@sleazycook",
         icon: "https://i.imgur.com/yau5rNx.png"
     },
     {
-        id: 7,
+        id: 5,
         name: "SmugMug",
         link: "https://andrewcook.smugmug.com",
         icon: "https://i.imgur.com/0IyNtdG.png"
+    },
+    {
+        id: 6,
+        name: "Letterboxd",
+        link: "https://letterboxd.com/sleazycook/",
+        icon: "https://i.imgur.com/gEucxoX.png"
     }
 ]
 
