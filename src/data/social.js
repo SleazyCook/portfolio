@@ -34,6 +34,12 @@ const iconArray = [
         name: "TikTok",
         link: "https://www.tiktok.com/@sleazycook",
         icon: "https://i.imgur.com/yau5rNx.png"
+    },
+    {
+        id: 7,
+        name: "SmugMug",
+        link: "https://andrewcook.smugmug.com",
+        icon: "https://i.imgur.com/0IyNtdG.png"
     }
 ]
 

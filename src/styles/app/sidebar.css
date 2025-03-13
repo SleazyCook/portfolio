@@ -53,7 +53,7 @@
 .social-icons {
     display: flex;
     justify-content: space-around;
-    width: 280px;
+    width: 320`px;
     margin: 1rem auto;
 }
 
