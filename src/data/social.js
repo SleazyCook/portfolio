@@ -33,7 +33,7 @@ const iconArray = [
     {
         id: 5,
         name: "SmugMug",
-        link: "https://andrewcook.smugmug.com",
+        link: "https://drewford.smugmug.com",
         icon: "https://i.imgur.com/0IyNtdG.png"
     },
     {
