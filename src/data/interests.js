@@ -35,7 +35,7 @@ const interests = [
         id: 5,
         name: 'Concerts & festivals',
         link: 'https://www.instagram.com/developedbydrewford/',
-        img: 'https://i.imgur.com/ED7vzy4.png',
+        img: 'https://i.imgur.com/IQruO45.jpeg',
         description: `I’m all about live music—there’s something special about the energy of concerts and festivals that you just can’t get anywhere else. Whether it’s the electrifying atmosphere or the sheer spectacle of the performers, I love getting lost in the moment. I try to hit up shows at least once a month and make it to a festival every year. Some of my favorite performances have been by Tyler the Creator, Paul McCartney, SiR, and Ari Lennox—each one unforgettable in its own way. There’s nothing like that shared excitement and connection with the crowd.`,
         linkText: 'Follow me on Instagram'
     },
