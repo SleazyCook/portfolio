@@ -1,5 +1,16 @@
 const projects = [
     {
+        id: 0,
+        name: 'Houston Guide',
+        link: 'https://houston.drewford.dev',
+        github: 'https://github.com/SleazyCook/houston',
+        description: 'Solo React Project',
+        blurb: "Drew's Houston Spots is my own guide to all my favorite places in Houston, Texas.  Featuring restaurants, attractions, bars & lounges, bookstore & libraries, coffee shops, tea & boba shops, drive through daiquiris, markets, museums, music venues, parks, hidden photo locations, movie theaters and more.  Explore maps, neighborhoods, & more in my own personal definitive guide to this city.",
+        highlights: ['Interactive Leaft Map', 'List View', 'Neighborhood View'],
+        stack: ['React.js', 'HTML 5', 'CSS 3', 'Git', 'Netlify'],
+        img: 'https://i.imgur.com/UlG1G58.png'
+    },
+    {
         id: 1,
         name: 'D&D Adventure Guide',
         link: 'https://sunseekers.drewford.dev',
