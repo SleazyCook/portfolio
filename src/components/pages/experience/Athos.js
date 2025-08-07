@@ -3,7 +3,9 @@ import ImageGallery from './ImageGallery'
 import skills from '../../../data/techSkills'
 import imageArray from '../../../data/image-gallery'
 
-function Searchspring() {
+import AthosLogo from "../../components/AthosLogo";
+
+const Athos = () => {
 
     // tech skills icons
     const searchspring = ['Javascript', 'Preact', 'HTML 5', 'CSS 3', 'Groovy Script', 'AWS', 'Shopify', 'Magento', 'BigCommerce', 'Git']
@@ -12,35 +14,34 @@ function Searchspring() {
     )
 
     // gallery images
-    const searchImages = ['searchspring product', 'searchspring autocomplete', 'searchspring partners']
+    const searchImages = ['athos website', 'athos generative discovery']
     const gallery = imageArray.filter(image =>
         searchImages.includes(image.alt)
     )
 
     return(
-        <div className=' card'>
+        <div className='card'>
+            
 
-                <div className='searchspring__header'>
-                    <a href='https://searchspring.com' target='_blank'>
-                        <img src='https://i.imgur.com/jGcPONP.png' alt='Searchspring logo' />
-                    </a>
+                <div className='athos__header'>
+                    <a href="https://athoscommerce.com" target="_blank"><AthosLogo /></a>
                     <div className='searchspring__header--sub'>
-                        <a href='https://searchspring.com' className='job-title card__title card__link' target='_blank'>
+                        <a href='https://athoscommerce.com/' className='job-title card__title card__link' target='_blank'>
                             Software Engineer
                         </a>
                         <div>
-                            <span>Feb 2024 - Jul 2025</span>
+                            <span>Jul 2025 - Present</span>
                             <span>San Antontio, TX - Remote</span>
                         </div>
                     </div>
                 </div>
 
                 <ul className='experience__details'>
-                    <li>Respond to customer inquiries and assist in troubleshooting and resolving challenges</li>
-                    <li>Research, diagnose, troubleshoot and identify solutions to resolve customer issues</li>
-                    <li>Provide prompt and accurate feedback to customers</li>
-                    <li>Review and publish code to production</li>
-                    <li>Document knowledge in the form of knowledge base tech notes and articles</li>
+                    <li>Respond to customer inquiries with timely, helpful support, assisting in troubleshooting and resolving technical issues</li>
+                    <li>Research, diagnose, and identify effective solutions for a wide range of customer challenges</li>
+                    <li>Deliver prompt and accurate feedback to ensure a positive customer experience</li>
+                    <li>Peer review and publish to production</li>
+                    <li>Contribute to internal knowledge sharing by creating and maintaining technical documentation and knowledge base articles</li>
                 </ul>
 
                 <div className='techstack'>
@@ -59,8 +60,9 @@ function Searchspring() {
                 <ImageGallery gallery={gallery}/>
 
 
-            </div>
+
+        </div>
     )
 }
 
-export default Searchspring
+export default Athos;

@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 
 import MobileButton from "../../../app/MobileButton"
+import Athos from "./Athos"
 import Searchspring from "./Searchspring"
 import GuildGaming from "./GuildGaming"
 import Fullstack from "./Fullstack"
@@ -21,6 +22,8 @@ function Experience() {
             <h2 className='page__title'>
                 Experience
             </h2>
+
+            <Athos />
 
             <Searchspring />
 
